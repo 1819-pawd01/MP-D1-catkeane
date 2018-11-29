@@ -1,0 +1,99 @@
+/*
+* Cat Keane
+* 11/29 
+* Midterm Project
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+/*Type Selectors*/
+
+body {
+    font-family:"Arial", sans-serif, "Verdana";
+    background-color:bisque;
+    color:black;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+table, th, td{
+     border: 1px solid black;
+}
+
+h2{
+    font-style: italic;
+    font-variant: small-caps;
+    margin-top: 40px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:back;
+}
+
+a{
+    text-decoration: overline underline;
+    color:blueviolet
+}
+   
+
+a:visited{
+        color:darkmagenta;
+        text-decoration: line-through;
+    }
+
+a:hover{
+        color:hotpink;
+        text-decoration: none;
+    }
+
+a:active{
+        color:cyan;
+        text-decoration: overline
+    }
+
+/*Class Selectors*/
+
+.yeezy{
+    width:150px;
+}
+
+.bear{
+    height:100px;
+}
+
+.images{
+    width:350px;
+}
+
+.code{
+    font-family:"courier"
+}
+
+
+
+/*ID Selectors*/
+
+#html{
+    margin-bottom: 50px; 
+    margin-top: 50px;
+}
+
+#css{
+    margin-bottom: 50px;
+}
+
+#attribute{
+    margin-bottom: 50px;
+}
